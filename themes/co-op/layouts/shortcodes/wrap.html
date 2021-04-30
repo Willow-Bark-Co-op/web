@@ -1,0 +1,6 @@
+<div {{if .Get "class"}}class="{{.Get "class"}}"{{end}}>
+	{{- if .Get "title" }}
+	<h3>{{if .Get "icon"}}<i class="fa fa-{{ .Get "icon" }}" aria-hidden="true"></i> {{end}}{{ .Get "title" }}</h3>
+	{{- end }}
+	{{.Inner | markdownify }}
+</div>

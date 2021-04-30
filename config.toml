@@ -1,0 +1,85 @@
+baseURL         = "http://soquee.coop/"
+languageCode    = "en-us"
+title           = "Soquee"
+theme           = "co-op"
+enableRobotsTXT = true
+
+[author]
+
+name  = "Sam Whited"
+email = "sam@soquee.net"
+
+[params]
+
+# logo      = ""
+description = "A worker-owned tech cooperative building websites, tools, and services."
+
+#[params.style]
+#
+#accentPrimary   = "#d5262b"
+#accentSecondary = "#81b3ae"
+#accentSubtle    = "#575757"
+#backgroundDark  = "#231f20"
+#backgroundLight = "#fcfcfc"
+
+[params.contact]
+
+org   = "Soquee Co-op"
+email = "service@soquee.coop"
+
+[menu]
+
+	[[menu.main]]
+	name = "Hours"
+	URL = "#hours"
+	weight = 1
+
+	[[menu.main]]
+	name = "Services"
+	URL = "#services"
+	weight = 2
+
+	[[menu.main]]
+	name = "Membership"
+	URL = "#membership"
+	weight = 3
+
+	[[menu.main]]
+	name = "Events"
+	URL = "#events"
+	weight = 4
+
+	[[menu.main]]
+	name = "Blog"
+	URL = "#blog"
+	weight = 5
+
+	[[menu.main]]
+	name = "Contact"
+	URL = "#contact"
+	weight = 6
+
+[privacy]
+
+	[privacy.disqus]
+	disable = true
+
+	[privacy.googleAnalytics]
+	disable = true
+
+	[privacy.instagram]
+	disable = true
+
+	[privacy.twitter]
+	disable = true
+
+	[privacy.vimeo]
+	disable = true
+
+	[privacy.youtube]
+	disable = true
+
+[markup]
+  [markup.goldmark]
+	    [markup.goldmark.renderer]
+			      unsafe = true
