@@ -1,39 +1,94 @@
 +++
 +++
 
-{{< hero height="73vh"
-         bgcolor="#1098F7" >}}
-## Make our team into your team
+{{< flexsection title="Services" >}}
+{{< div >}}
+### Build Websites
 
- We are a collective of professionals making lorem ipsum with a touch of dolor
- sit amet.
+Lorem ipsum dolor sit amet,
+consecutur adipscing elit, sed do eiusmod tempor indicidunt ut labore,
+et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+exercitation ullamo laboris nisi ut aliqujip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui foficia deserunt mollit anim id est
+laborum.
+{{< /div >}}
+{{< div >}}
+### Host Stuff
 
-{{< /hero >}}
+Lorem ipsum dolor sit amet,
+consecutur adipscing elit, sed do eiusmod tempor indicidunt ut labore,
+et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+exercitation ullamo laboris nisi ut aliqujip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui foficia deserunt mollit anim id est
+laborum.
+{{< /div >}}
+{{< div >}}
+### Develop Tools
 
-## Services
+Lorem ipsum dolor sit amet,
+consecutur adipscing elit, sed do eiusmod tempor indicidunt ut labore,
+et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+exercitation ullamo laboris nisi ut aliqujip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui foficia deserunt mollit anim id est
+laborum.
+{{< /div >}}
+{{< /flexsection >}}
 
-Don't see what you're looking for? Contact us for a consultation.
+{{< section title="Values" >}}
 
-{{< hero height="13vh"
-         bgcolor="#1098F7" >}}
-## Our Values
+### Democratic egalitarian member control.
 
-{{% flex justify-content="space-between" %}}
+ Lorem ipsum dolor sit amet, consecutur adipscing elit, sed do eiusmod tempor
+ indicidunt ut labore, et dolore magna aliqua. Ut enim ad minim veniam, quis
+ nostrud exercitation ullamo laboris nisi ut aliqujip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+ fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+ culpa qui foficia deserunt mollit anim id est laborum. 
 
-{{< wrap icon="leaf" title="Sustainability" >}}
-{{< /wrap >}}
+### Accountable to impacted communities.
 
-{{< wrap icon="book" title="Transparency" >}}
-{{< /wrap >}}
+Lorem ipsum dolor sit amet, consecutur adipscing elit, sed do eiusmod tempor indicidunt ut labore, et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliqujip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui foficia deserunt mollit anim id est laborum.
 
-{{< wrap icon="lock" title="Security" >}}
-{{< /wrap >}}
+### Privacy, decentralization, & autonomy.
 
-{{% /flex %}}
-{{< /hero >}}
+Lorem ipsum dolor sit amet, consecutur adipscing elit, sed do eiusmod tempor indicidunt ut labore, et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliqujip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui foficia deserunt mollit anim id est laborum.
 
+### The Commons.
 
-## Contact
+Lorem ipsum dolor sit amet, consecutur adipscing elit, sed do eiusmod tempor indicidunt ut labore, et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliqujip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui foficia deserunt mollit anim id est laborum.
 
-To contact us fill out the form below or use one of the other mechanisms listed
-here.
+### Sustainable economics and ecology.
+
+Lorem ipsum dolor sit amet, consecutur adipscing elit, sed do eiusmod tempor indicidunt ut labore, et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliqujip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui foficia deserunt mollit anim id est laborum.
+
+### Some other stuff.
+
+Lorem ipsum dolor sit amet, consecutur adipscing elit, sed do eiusmod tempor indicidunt ut labore, et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliqujip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui foficia deserunt mollit anim id est laborum.
+
+### This section can't fit on a page.
+
+Lorem ipsum dolor sit amet, consecutur adipscing elit, sed do eiusmod tempor indicidunt ut labore, et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliqujip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui foficia deserunt mollit anim id est laborum.
+
+### So we can see what scrolling is like.
+
+Lorem ipsum dolor sit amet, consecutur adipscing elit, sed do eiusmod tempor indicidunt ut labore, et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliqujip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui foficia deserunt mollit anim id est laborum.
+
+### On my monitor anyways.
+
+Lorem ipsum dolor sit amet, consecutur adipscing elit, sed do eiusmod tempor indicidunt ut labore, et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliqujip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui foficia deserunt mollit anim id est laborum.
+
+### It just keeps going.
+
+Lorem ipsum dolor sit amet, consecutur adipscing elit, sed do eiusmod tempor indicidunt ut labore, et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliqujip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui foficia deserunt mollit anim id est laborum.
+
+{{< /section >}}
+
+{{< section title="Contact" >}}
+We'd love to work with you, why not drop us an email at [hello@example.net](mailto:hello@example.net)
+{{< /section >}}

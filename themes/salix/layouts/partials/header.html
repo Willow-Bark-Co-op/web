@@ -1,0 +1,11 @@
+<a id="contactfloat" href="#contact">
+	<img src="img/chat_icon.svg" alt="Contact Us"/>
+</a>
+<header>
+	<h1>{{ replace (.Site.Title | plainify) " " "<br/>" | safeHTML}}.</h1>
+	{{ if .Site.Params.description }}
+	<p>
+	{{ .Site.Params.description }}
+	</p>
+	{{ end }}
+</header>

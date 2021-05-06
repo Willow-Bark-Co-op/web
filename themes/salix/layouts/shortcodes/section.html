@@ -1,0 +1,9 @@
+<section>
+	<h2>{{ .Get "title" }}</h2>
+	<!--
+		Hugo is stupid and removes the p tag if it's only one block so add a block,
+		markdownify, then remove the block to work around it.
+		See https://github.com/gohugoio/hugo/issues/5975
+	-->
+	{{ printf "%s\n\n[eof]" .Inner | markdownify | strings.TrimSuffix "<p>[eof]</p>\n" | safeHTML }}
+</section>

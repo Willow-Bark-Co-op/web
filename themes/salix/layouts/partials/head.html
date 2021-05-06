@@ -1,0 +1,13 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{.Site.Title}}</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+			href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap"
+			rel="stylesheet">
+	{{ $style := resources.Get "css/main.css" | resources.Minify }}
+	{{ $secureStyle := $style | resources.Fingerprint "sha256" }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $secureStyle.Data.Integrity }}">
+</head>

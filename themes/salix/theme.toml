@@ -1,0 +1,13 @@
+name = "Salix"
+license = "BSD"
+licenselink = "https://codeberg.org/willowbark/web/src/branch/main/themes/salix/LICENSE"
+description = ""
+homepage = "http://example.com/"
+tags = []
+features = []
+min_version = "0.41.0"
+
+authors = [
+  {name = "Sam Whited", homepage = "https://blog.samwhited.com"},
+  {name = "AZ", homepage = ""},
+]
