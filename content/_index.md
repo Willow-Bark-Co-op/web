@@ -89,6 +89,6 @@ Lorem ipsum dolor sit amet, consecutur adipscing elit, sed do eiusmod tempor ind
 
 {{< /section >}}
 
-{{< section title="Contact" >}}
+{{< section title="Contact" anchor="contact" >}}
 We'd love to work with you, why not drop us an email at [hello@example.net](mailto:hello@example.net)
 {{< /section >}}
