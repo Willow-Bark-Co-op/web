@@ -67,25 +67,25 @@ section > div {
 	margin: 0 auto;
 }
 
-section:nth-of-type(1) {
+section.columns-section {
 	background-color: var(--color-red);
 	color: white;
 }
 
-section:nth-of-type(1) h2 {
+section.columns-section h2 {
 	opacity: 0.75;
 	max-width: 1650px;
 	margin: 0 auto;
 }
 
-section:nth-of-type(1) > div > div {
+section.columns-section > div > div {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	margin: 0 auto;
 }
 
-section:nth-of-type(1) > div > div div {
+section.columns-section > div > div div {
 	border-bottom: 2px solid white;
 	width: 30%;
 	max-width: 25rem;
@@ -94,17 +94,17 @@ section:nth-of-type(1) > div > div div {
 }
 
 
-section:nth-of-type(2) {
+section.list-section {
 	color: var(--color-blue);
 	max-width: 700px;
 	margin: 0 auto;
 }
 
-section:nth-of-type(2) h2 {
+section.list-section h2 {
 	opacity: 0.75;
 }
 
-section:nth-of-type(2) h3 {
+section.list-section h3 {
 	text-decoration: underline;
 	text-decoration-color: var(--color-lime);
 	text-decoration-thickness: 0.5rem;
@@ -114,7 +114,7 @@ section:nth-of-type(2) h3 {
 	max-width: 100%;
 }
 
-section:nth-of-type(3) {
+section.minimal-section {
 	min-height: 100vh;
 	color: var(--color-navy);
 	background-color: var(--color-lime);
@@ -125,13 +125,13 @@ section:nth-of-type(3) {
 	background-size: 1024px;
 }
 
-section:nth-of-type(3) p {
+section.minimal-section p {
 	background-color: rgba(255, 255, 255, 0.4);
 	width: max-content;
 	max-width: 100%;
 }
 
-section:nth-of-type(3) a {
+section.minimal-section a {
 	background-color: rgba(0, 0, 0, 0.4);
 	color: white;
 	text-decoration: none;
@@ -171,17 +171,17 @@ section:nth-of-type(3) a {
 		font-size: 3rem !important;
 	}
 	
-	section:nth-of-type(1) > div > div {
+	section.columns-section > div > div {
 		flex-direction: column;
 		width: 100%;
 	}
 
-	section:nth-of-type(1) > div > div div {
+	section.columns-section > div > div div {
 		width: 100%;
 		margin: 0 auto;
 	}
 
-	section:nth-of-type(3) {
+	section.minimal-section {
 		background-size: contain;
 	}
 }

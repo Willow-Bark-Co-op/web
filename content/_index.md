@@ -1,7 +1,7 @@
 +++
 +++
 
-{{< flexsection title="Services" >}}
+{{< flexsection title="Services" class="columns-section" >}}
 {{< div >}}
 ### Build Websites
 
@@ -40,7 +40,7 @@ laborum.
 {{< /div >}}
 {{< /flexsection >}}
 
-{{< section title="Values" >}}
+{{< section title="Values" class="list-section" >}}
 
 ### Democratic egalitarian member control.
 
@@ -89,6 +89,6 @@ Lorem ipsum dolor sit amet, consecutur adipscing elit, sed do eiusmod tempor ind
 
 {{< /section >}}
 
-{{< section title="Contact" anchor="contact" >}}
+{{< section title="Contact" anchor="contact" class="minimal-section" >}}
 We'd love to work with you, why not drop us an email at [hello@example.net](mailto:hello@example.net)
 {{< /section >}}
