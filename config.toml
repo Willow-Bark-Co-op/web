@@ -12,8 +12,8 @@ email = "hello@example.net"
 [params]
 
 # logo      = ""
-description = """a small co-operative team of designers & developers working
-on open and decentralised technology."""
+description = """a co-operative team of designers & developers building
+better software for a better world."""
 
 [params.contact]
 
