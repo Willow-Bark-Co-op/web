@@ -9,5 +9,8 @@
         {{- block "main" . }}{{- end }}
         </main>
         {{- partial "footer.html" . -}}
+				{{ $script := resources.Get "js/script.js" | resources.Minify }}
+				{{ $secureScript := $script | resources.Fingerprint "sha256" }}
+				<script src="{{ $script.Permalink }}" integrity="{{ $secureScript.Data.Integrity }}"></script>
     </body>
 </html>
