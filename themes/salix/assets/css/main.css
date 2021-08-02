@@ -5,6 +5,10 @@
 	--color-blue: #2b0bf2;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 *, *:after, *:before {
 	box-sizing: border-box;
 }
