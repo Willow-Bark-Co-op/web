@@ -134,9 +134,9 @@ section.minimal-section {
 	background-color: var(--color-lime);
 	font-size: 2rem;
 	background-image: url("/img/pigeon.png");
-	background-position: left 30% bottom 45%;
+	background-position: left 40% bottom 40%;
 	background-repeat: no-repeat;
-	background-size: 1024px;
+	background-size: 512px;
 }
 
 section.minimal-section p {
