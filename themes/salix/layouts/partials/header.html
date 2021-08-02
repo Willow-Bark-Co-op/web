@@ -1,8 +1,24 @@
-<header>
-	<h1>{{ replace (.Site.Title | plainify) " " "<br/>" | safeHTML}}.</h1>
-	{{ if .Site.Params.description }}
-	<p>
-	{{ .Site.Params.description }}
+<!-- <header> -->
+<!-- 	<h1>{{ replace (.Site.Title | plainify) " " "<br/>" | safeHTML}}.</h1> -->
+<!-- 	{{ if .Site.Params.description }} -->
+<!-- 	<p> -->
+<!-- 	{{ .Site.Params.description }} -->
+<!-- 	</p> -->
+<!-- 	{{ end }} -->
+<!-- </header> -->
+
+<header class="header">
+	<h1 class="header__title">{{ replace (.Site.Title | plainify) " " "<br/>" | safeHTML}}.</h1>
+	<div class="header__img-container">
+		<img
+			class="header__img"
+			src="./img/willowtexture.png"
+			alt="close up of willow bark"
+		/>
+	</div>
+	<p class="header__tagline">
+		a small co-operative team of designers &amp; developers working on open
+		and decentralised technology.
 	</p>
-	{{ end }}
 </header>
+
