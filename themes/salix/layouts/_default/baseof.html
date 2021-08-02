@@ -2,6 +2,8 @@
 <html lang="{{ if .Language.Lang}}{{ .Language.Lang }}{{ else }}{{ .Site.LanguageCode }}{{ end }}">
     {{- partial "head.html" . -}}
     <body>
+				
+        {{- partial "contactButton.html" . -}}
         {{- partial "header.html" . -}}
         <main role="main">
         {{- block "main" . }}{{- end }}

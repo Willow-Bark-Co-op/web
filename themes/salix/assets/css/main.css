@@ -1,7 +1,6 @@
 :root {
 	--color-red: #e80015;
-	--color-lime: #19e853;
-	--color-navy: #190b53;
+	--color-green: #19e853;
 	--color-blue: #2b0bf2;
 }
 
@@ -15,16 +14,19 @@ body {
 	padding: 0;
 }
 
-#contactfloat {
-	mix-blend-mode: darken;
+
+.contact-btn {
 	position: fixed;
 	right: 2rem;
 	top: 2rem;
+	mix-blend-mode: darken;
+	z-index: 10;
 }
 
-#contactfloat img {
+.contact-btn__icon {
 	height: 2rem;
 }
+
 
 section {
 	min-height: 100vh;
@@ -172,9 +174,6 @@ section.minimal-section a {
 }
 
 @media (max-width: 750px) {
-	#contactfloat:before {
-		display: none;
-	}
 
 	h2 {
 		font-size: 3rem !important;
