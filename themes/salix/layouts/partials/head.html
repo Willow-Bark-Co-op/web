@@ -7,6 +7,9 @@
 	<link
 			href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700;900&display=swap"
 			rel="stylesheet">
+	<link
+			href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap"
+			rel="stylesheet">
 	{{ $style := resources.Get "css/main.css" | resources.Minify }}
 	{{ $secureStyle := $style | resources.Fingerprint "sha256" }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $secureStyle.Data.Integrity }}">
