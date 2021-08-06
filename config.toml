@@ -1,4 +1,4 @@
-baseurl         = ""
+baseurl         = "https://willowbark.org"
 languageCode    = "en-us"
 title           = "Willow Bark Co-op"
 theme           = "salix"
