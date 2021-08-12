@@ -1,0 +1,39 @@
+<section class="values">
+	<div class="values__container">
+		<h2 class="values__title">Values</h2>
+		<div class="values__grid">
+			<div class="values__content">
+				{{ range (split .Inner "\n\n") }}
+					{{ if .}}
+						{{ if in . "#"}}
+							{{ $value := replaceRE "\n*#+ " "" . }}
+							<h3 id="{{ urlize $value }}" class="value__title">
+								<span class="value__title--highlight">
+									{{ markdownify $value }}
+								</span>
+							</h3>
+						{{ else }}
+							<p class="value__details">
+								{{ markdownify . }}
+							</p>
+						{{ end }}
+					{{ end }}
+				{{ end }}
+			</div>
+			<div class="values__menu">
+				<div class="values__menu__slider">
+					{{ range (split .Inner "\n\n") }}
+						{{ if in . "#"}}
+							{{ $value := replaceRE ".*#+ " "" . }}
+							<a class="value__link" href="#{{ urlize $value }}">
+								<span class="value__link--highlight">
+									{{ markdownify $value }}
+								</span>
+							</a>
+						{{ end }}
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
