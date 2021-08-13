@@ -3,10 +3,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{.Site.Title}}</title>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link
-			href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap"
-			rel="stylesheet">
+	{{ $fontStyle := resources.Get "css/alegreya.css" | resources.Minify }}
+	{{ $secureFontStyle := $fontStyle | resources.Fingerprint "sha256" }}
+	<link rel="stylesheet" href="{{ $fontStyle.Permalink }}" integrity="{{ $secureFontStyle.Data.Integrity }}">
 	{{ $style := resources.Get "css/main.css" | resources.Minify }}
 	{{ $secureStyle := $style | resources.Fingerprint "sha256" }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $secureStyle.Data.Integrity }}">
