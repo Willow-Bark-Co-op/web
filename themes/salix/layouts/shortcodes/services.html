@@ -19,7 +19,7 @@
 				<div class="service">
 					<h3 class="service__title">{{ $value }}</h3>
 					<p class="service__blurb">
-						{{ index $parts (add $index 1) }}
+						{{ index $parts (add $index 1) | markdownify }}
 					</p>
 				</div>
 					{{end}}
