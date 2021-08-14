@@ -1,0 +1,29 @@
+{{ $parts := slice }}
+{{ range (split .Inner "\n\n") }}
+	{{ if .}}
+		{{ if in . "#"}}
+			{{ $value := replaceRE "\n*#+ " "" . }}
+					{{ $parts = $parts | append $value }}
+		{{ else }}
+				{{ $parts = $parts | append . }}
+		{{ end }}
+	{{ end }}
+{{ end }}
+
+<section class="services">
+	<div class="services__container">
+		<h2 class="services__title">Services</h2>
+		<div class="services__content">
+			{{ range $index, $value := $parts }}
+				{{ if eq (mod $index 2) 0  }}
+				<div class="service">
+					<h3 class="service__title">{{ $value }}</h3>
+					<p class="service__blurb">
+						{{ index $parts (add $index 1) }}
+					</p>
+				</div>
+					{{end}}
+			{{ end }}
+		</div>
+	</div>
+</section>
