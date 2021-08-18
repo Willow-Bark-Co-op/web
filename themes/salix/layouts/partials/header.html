@@ -2,13 +2,10 @@
 	<img src="img/chat_icon.svg" alt="Contact Us"/>
 </a>
 <header>
-	<h1>{{ replace (.Site.Title | plainify) " " "<br/>" | safeHTML}}.</h1>
+	<div>
+		<h1>{{ replace (.Site.Title | plainify) " " "<br/>" | safeHTML}}.</h1>
+	</div>
 	<div>
 		<img src="./img/willowtexture.png" alt="close up of willow bark"/>
 	</div>
-	{{ if .Site.Params.description }}
-	<p>
-	{{ .Site.Params.description }}
-	</p>
-	{{ end }}
 </header>
