@@ -3,6 +3,9 @@
 </a>
 <header>
 	<h1>{{ replace (.Site.Title | plainify) " " "<br/>" | safeHTML}}.</h1>
+	<div>
+		<img src="./img/willowtexture.png" alt="close up of willow bark"/>
+	</div>
 	{{ if .Site.Params.description }}
 	<p>
 	{{ .Site.Params.description }}
