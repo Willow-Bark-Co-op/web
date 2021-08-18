@@ -199,19 +199,12 @@ section.minimal-section a {
 		display: none;
 	}
 
-	header {
-		grid-template-columns: 2rem repeat(5, calc(calc(100vw - 4rem) / 5)) 2rem;
-		grid-template-rows: 4rem repeat(5, calc(calc(100vh - 4rem) / 5)) 2rem;
-	}
 
 	header h1 {
 		grid-column: 2 / span 5;
 		grid-row: 2 / 3;
 		align-self: auto;
 		font-size: 5rem;
-		margin: 0;
-		font-weight: 900;
-		line-height: 0.9;
 	}
 
 	header img {
@@ -221,10 +214,7 @@ section.minimal-section a {
 	header p {
 		grid-column: 2 / span 2;
 		grid-row: 5 / 6;
-		margin: 0;
 		font-size: 1.5rem;
-		font-weight: 800;
-		width: 20rem;
 	}
 
 	h2 {
