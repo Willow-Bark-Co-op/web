@@ -41,7 +41,7 @@ section {
 header {
 	align-items: center;
 	background-color: white;
-	background-image: url("/img/willowtexture.png");
+	background-image: url("/img/willowtexture_dot.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 1024px;
@@ -133,7 +133,7 @@ section.minimal-section {
 	color: var(--color-navy);
 	background-color: var(--color-lime);
 	font-size: 2rem;
-	background-image: url("/img/pigeon.png");
+	background-image: url("/img/pigeon.jpg");
 	background-position: left 40% bottom 40%;
 	background-repeat: no-repeat;
 	background-size: 512px;
