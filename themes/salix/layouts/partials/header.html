@@ -3,7 +3,7 @@
 </a>
 <header>
 	<h1>{{ replace (.Site.Title | plainify) " " "<br/>" | safeHTML}}.</h1>
-	<div>
+	<div aria-hidden="true">
 		<img src="./img/willowtexture.png" alt="close up of willow bark"/>
 	</div>
 	{{ if .Site.Params.description }}
