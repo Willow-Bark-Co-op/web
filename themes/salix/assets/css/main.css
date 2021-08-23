@@ -188,19 +188,20 @@ section.minimal-section a {
 
 	header {
 		background-size: 120vmin;
+		padding: 4rem 2rem;
+		display:flex;
+		flex-direction: column;
 	}
 
 	header h1 {
-		grid-column: 2 / span 5;
-		grid-row: 2 / 3;
 		align-self: auto;
 		font-size: 5rem;
+		margin-bottom: 3rem;
 	}
 
 	header p {
-		grid-column: 2 / span 2;
-		grid-row: 5 / 6;
 		font-size: 1.5rem;
+		width: calc(100vw - 4rem)
 	}
 
 	h2 {
