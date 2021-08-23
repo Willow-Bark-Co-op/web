@@ -172,19 +172,26 @@ section.minimal-section a {
 .contact a {
 	color: white;
 	font-family: "Source Code Pro", monospace;
-	font-weight: 700;
 	text-decoration: none;
 	margin: 3rem 0 0 0;
 	grid-column: 2 / 3;
 	grid-row: 1 / 2;
 	z-index: 1;
+	background-color: var(--color-navy);
+	width: max-content;
+	height: max-content;
+	padding: 0.5rem 1rem;
+	border-radius: 1rem;
 }
 
 .contact p {
 	padding-right: 0.5rem;
 	margin: 3rem 0 0 0;
+	font-size: 1.5rem;
 	mix-blend-mode: darken;
 	z-index: 1;
+	height: max-content;
+	padding: 0.5rem;
 }
 
 .contact img {
