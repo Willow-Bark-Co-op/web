@@ -1,5 +1,5 @@
 <section{{ with .Get "class" }} class="{{.}}"{{ end }}>
-	<h2>{{ .Get "title" }}</h2>
+	<h2{{ with .Get "anchor" }} id="{{.}}"{{ end }}>{{ .Get "title" }}</h2>
 	<div><div>
 	{{ .Inner | safeHTML }}
 	</div></div>
