@@ -103,14 +103,14 @@ section.columns-section h2 {
 	margin: 0 auto;
 }
 
-section.columns-section > div > div {
+section.columns-section > div {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	margin: 0 auto;
 }
 
-section.columns-section > div > div div {
+section.columns-section > div div {
 	border-bottom: 2px solid white;
 	width: 30%;
 	max-width: 25rem;
