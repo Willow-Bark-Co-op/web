@@ -2,7 +2,9 @@
 <html lang="{{ if .Language.Lang}}{{ .Language.Lang }}{{ else }}{{ .Site.LanguageCode }}{{ end }}">
     {{- partial "head.html" . -}}
     <body>
+        {{- block "header" . }}
         {{- partial "header.html" . -}}
+				{{- end }}
         <main role="main">
         {{- block "main" . }}{{- end }}
         </main>

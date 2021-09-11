@@ -1,0 +1,9 @@
+{{ define "header" }}
+{{ with .Title }}
+<h1>{{.}}</h1>
+{{ end }}
+{{ end }}
+
+{{ define "main" }}
+{{ .Content }}
+{{ end }}
