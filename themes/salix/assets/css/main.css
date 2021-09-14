@@ -71,7 +71,7 @@ header h1 {
 	mix-blend-mode: darken;
 }
 
-header p {
+header.homepage p {
 	font-size: 2rem;
 	width: 20rem;
 	grid-column: 5 / span 2;
@@ -170,6 +170,18 @@ section.minimal-section a {
 	text-decoration: none;
 	font-weight: bold;
 }
+
+figure.member-pic {
+  max-height: 12rem;
+  overflow: clip;
+  display: inline-block;
+}
+
+figure.member-pic img {
+  height: auto;
+  width: 50%;
+}
+
 
 @media (max-width: 945px) {
 	section {

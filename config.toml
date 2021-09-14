@@ -19,3 +19,8 @@ better software for a better world."""
 
 org   = "Willow Bark Co-op"
 email = "hello@willowbark.org"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
