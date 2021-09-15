@@ -2,8 +2,7 @@
 title = 'About Us'
 +++
 
-{{< flexsection title="Cooperation" class="list-section" >}}
-{{< div >}}
+## Cooperation
 
 While the below list of members may help you understand our team's background and abilities, our commitment to communication, learning, and cooperation means that as a group, we are greater than the sum of our parts.
 
@@ -30,6 +29,3 @@ Five and a half months later he found himself submitting Mt. Katahdin, roughly
 2100 miles from where he started.
 
 {{< figure src="./sam.jpg" title="Sam Whited" class="member-pic" >}}
-
-{{< /flexsection >}}
-{{< /div >}}
