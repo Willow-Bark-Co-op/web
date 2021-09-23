@@ -103,18 +103,27 @@ section.columns-section h2 {
 	margin: 0;
 }
 
+section .columns-section h3 {
+	grid-area: column-header;
+	font-size: 1.3rem;
+}
+
 section.columns-section {
 	display: grid;
+	grid-auto-flow: column;
+	grid-template-rows: repeat(3, min-content);
 	grid-template-areas:
 		"title title title"
+		". . ."
 		". . .";
 }
 
-section.columns-section > div {
+section.columns-section > p {
 	border-bottom: 2px solid white;
 	max-width: 25rem;
 	font-size: 1.3rem;
 	height: min-content;
+	padding-bottom: 2rem;
 	z-index: 2;
 }
 
@@ -209,17 +218,9 @@ section.minimal-section a {
 	}
 	
 	section.columns-section {
-	grid-template-areas:
-		"title"
-		"."
-		"."
-		".";
+		display: flex;
+		flex-direction: column;
 		width: 100%;
-	}
-
-	section.columns-section > div {
-		width: 100%;
-		margin: 0 auto;
 	}
 
 	section.minimal-section {
