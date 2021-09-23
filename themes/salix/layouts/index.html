@@ -1,3 +1,10 @@
 {{ define "main" }}
-	{{ .Content }}
+{{ with .Site.GetPage (path.Join "/" (.Param "bundle")) }}
+{{ range sort .Resources "Params.weight" }}
+<section{{with .Param "class"}} class="{{.}}"{{end}}>
+<h2{{ with .Param "anchor" }} id="{{.}}"{{ end }}>{{ .Title }}</h2>
+{{ .Content }}
+</section>
+{{ end }}
+{{ end }}
 {{ end }}

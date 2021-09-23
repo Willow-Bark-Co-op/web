@@ -98,26 +98,25 @@ section.columns-section {
 }
 
 section.columns-section h2 {
+	grid-area: title;
 	opacity: 0.75;
-	max-width: 1650px;
-	margin: 0 auto;
+	margin: 0;
+}
+
+section.columns-section {
+	display: grid;
+	grid-template-areas:
+		"title title title"
+		". . .";
 }
 
 section.columns-section > div {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin: 0 auto;
-}
-
-section.columns-section > div div {
 	border-bottom: 2px solid white;
-	width: 30%;
 	max-width: 25rem;
 	font-size: 1.3rem;
+	height: min-content;
 	z-index: 2;
 }
-
 
 section.list-section {
 	color: var(--color-blue);
@@ -209,12 +208,16 @@ section.minimal-section a {
 		font-size: 3rem !important;
 	}
 	
-	section.columns-section > div > div {
-		flex-direction: column;
+	section.columns-section {
+	grid-template-areas:
+		"title"
+		"."
+		"."
+		".";
 		width: 100%;
 	}
 
-	section.columns-section > div > div div {
+	section.columns-section > div {
 		width: 100%;
 		margin: 0 auto;
 	}
