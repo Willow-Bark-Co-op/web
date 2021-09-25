@@ -88,6 +88,16 @@ operate efficiently and with minimal waste.
 
 {{< /section >}}
 
-{{< section title="Contact" anchor="contact" class="minimal-section" >}}
-We'd love to work with you, why not drop us an email at [hello@willowbark.org](mailto:hello@willowbark.org)
-{{< /section >}}
+{{< flexsection title="Contact" anchor="contact" class="contact">}}
+
+<p>We'd love to work with you, why not drop us an email at</p>
+
+{{< email >}}
+
+<img
+	src="img/pigeon.png"
+	alt="a pigeon in flight possibly delivering your message."
+	aria-hidden="true"
+/>
+
+{{< /flexsection >}}

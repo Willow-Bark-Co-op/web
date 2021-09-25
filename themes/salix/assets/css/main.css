@@ -85,6 +85,7 @@ header p {
 
 section h2 {
 	font-size: 10rem;
+	margin: 0;
 }
 
 section > div {
@@ -163,9 +164,56 @@ section.minimal-section a {
 	font-weight: bold;
 }
 
+.contact {
+	background-color: var(--color-lime);
+	color: var(--color-blue);
+	font-size: 1.3rem;
+}
+
+.contact div div {
+	display: grid;
+	grid-template-columns: max-content max-content 1fr;
+	grid-template-rows: 1fr;
+}
+
+.contact h2, p {
+	mix-blend-mode: darken;
+}
+
+.contact a {
+	color: var(--color-lime);
+	font-family: "Source Code Pro", monospace;
+	font-weight: 700;
+	text-decoration: none;
+	margin: 3rem 0 0 0;
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	z-index: 1;
+	background-color: var(--color-navy);
+	width: max-content;
+	height: max-content;
+	padding: 0.5rem 1rem;
+}
+
+.contact p {
+	padding-right: 0.5rem;
+	margin: 3rem 0 0 0;
+	font-size: 1.5rem;
+	mix-blend-mode: darken;
+	z-index: 1;
+	height: max-content;
+	padding: 0.5rem;
+}
+
+.contact img {
+	width: 50vmin;
+	grid-column: 2 / span 2;
+	grid-row: 1 / 2;
+}
+
 @media (max-width: 945px) {
 	section {
-		padding: 1rem;
+		padding: 2rem;
 	}
 
 	header {
@@ -179,6 +227,24 @@ section.minimal-section a {
 
 	h1 {
 		font-size: 5rem;
+	}
+		
+	.contact div div {
+		grid-template-columns: 1fr;
+		grid-template-rows: max-content max-content;
+	}
+
+	.contact a {
+		grid-column: 1 / 2;
+		grid-row: 2 / 3;
+	}
+
+	.contact img {
+		width: 100%;
+		align-self: center;
+		left: 1rem;
+		grid-column: 1 / 2;
+		grid-row: 2 / 3;
 	}
 }
 
@@ -206,7 +272,7 @@ section.minimal-section a {
 	}
 
 	h2 {
-		font-size: 3rem !important;
+		font-size: 5rem !important;
 	}
 	
 	section.columns-section > div > div {
