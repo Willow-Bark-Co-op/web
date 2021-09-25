@@ -38,12 +38,7 @@ communication technologies make us a perfect fit for most business needs.
 {{< /div >}}
 {{< /flexsection >}}
 
-{{< section title="Values" class="list-section" >}}
-
-Our values are important to us and are one of the reasons our clients trust us.
-Some of them include:
-
-
+{{< values >}}
 ### Democratic egalitarian member control.
 
 We are a worker owned co-op meaning our developers and designers own the
@@ -86,7 +81,7 @@ It is possible to build a business that is both sustainable and profitable.
 Wherever possible we strive to use and build sustainable technologies that
 operate efficiently and with minimal waste.
 
-{{< /section >}}
+{{< /values >}}
 
 {{< section title="Contact" anchor="contact" class="minimal-section" >}}
 We'd love to work with you, why not drop us an email at [hello@willowbark.org](mailto:hello@willowbark.org)
