@@ -1,6 +1,8 @@
+{{ if .Page.IsHome }}
 <a id="contactfloat" href="#contact">
 	<img src="/img/chat_icon.svg" alt="Contact Us"/>
 </a>
+{{ end }}
 <header {{ with .Page.IsHome }} class='homepage' {{ end }} >
 	<h1>{{ replace (.Site.Title | plainify) " " "<br/>" | safeHTML}}.</h1>
 	{{ if and .Page.IsHome .Site.Params.description }}
