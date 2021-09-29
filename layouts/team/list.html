@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section class="list-section">
+{{ .Content }}
+
+{{ range (.Site.GetPage (path.Join "/team")).Pages }}
+<h3{{ with .Param "anchor" }} id="{{.}}"{{ end }}>{{ .Title }}</h3>
+<div class="member">
+{{ .Content }}
+</div>
+{{ end }}
+
+</section>
+{{ end }}

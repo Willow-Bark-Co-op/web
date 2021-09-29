@@ -181,15 +181,19 @@ section.minimal-section a {
 	font-weight: bold;
 }
 
-figure.member-pic {
-  max-height: 12rem;
-  overflow: clip;
-  display: inline-block;
+figure.member-pic img {
+	object-fit: cover;
+	max-width: 12rem;
+	max-height: 12rem;
+	border-radius: 50%;
 }
 
-figure.member-pic img {
-  height: auto;
-  width: 50%;
+figure.member-pic figcaption {
+	text-align: center;
+}
+
+.member {
+	display: flex;
 }
 
 
