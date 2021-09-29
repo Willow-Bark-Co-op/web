@@ -3,7 +3,7 @@
 </a>
 <header {{ with .Page.IsHome }} class='homepage' {{ end }} >
 	<h1>{{ replace (.Site.Title | plainify) " " "<br/>" | safeHTML}}.</h1>
-	{{ if .Site.Params.description }}
+	{{ if and .Page.IsHome .Site.Params.description }}
 	<p>
 	{{ .Site.Params.description }}
 	</p>

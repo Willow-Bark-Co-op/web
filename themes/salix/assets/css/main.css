@@ -42,33 +42,25 @@ section {
 header {
 	background-color: white;
 	background-image: url("/img/willowtexture_dot.jpg");
-	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 70vmin;
+	background-size: contain;
 	color: var(--color-blue);
-	display: grid;
-	height: 100%;
 	margin: 0 auto;
-	min-height: 100vh;
 	max-width: 100vw;
 	width: 100%;
+}
+
+header.homepage {
+	height: 100%;
+	min-height: 100vh;
+	background-position: center;
+	background-size: 70vmin;
+	display: grid;
 	grid-template-columns:
 		1fr
 		repeat(5, calc(calc(100vw - calc(100vw - 1180px)) / 5))
 		1fr;
 	grid-template-rows: 5rem repeat(5, calc(calc(100vh - 10rem) / 5)) 5rem;
-}
-
-header h1 {
-	grid-column: 2 / span 3;
-	grid-row: 2 / span 5;
-	align-self: center;
-	z-index: 10;
-	font-size: min(13vw, 15rem);
-	margin: 0;
-	font-weight: 700;
-	line-height: 0.9;
-	mix-blend-mode: darken;
 }
 
 header.homepage p {
@@ -81,6 +73,24 @@ header.homepage p {
 	line-height: 1.4;
 	font-weight: 700;
 	mix-blend-mode: darken;
+}
+
+header h1 {
+	grid-column: 2 / span 3;
+	grid-row: 2 / span 5;
+	align-self: center;
+	z-index: 10;
+	margin: 0;
+	padding: 0.5rem 1rem;
+	font-weight: 700;
+	line-height: 0.9;
+}
+
+header.homepage h1 {
+	font-size: min(13vw, 15rem);
+	mix-blend-mode: darken;
+	margin: 0;
+	padding: 0;
 }
 
 section h2 {

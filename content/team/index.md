@@ -2,16 +2,21 @@
 title = 'About Us'
 +++
 
-## Cooperation
-
-While the below list of members may help you understand our team's background and abilities, our commitment to communication, learning, and cooperation means that as a group, we are greater than the sum of our parts.
-
 ## Members
+
+While the below list of members may help you understand our team's background
+and abilities, our commitment to communication, learning, and cooperation means
+that as a group, we are greater than the sum of our parts.
 
 ### Noah Hall
 [personal site](https://www.nthall.com)
 
-Noah lives in Asheville, NC with his wife, two children, two dogs, and four laying hens. He has deep experience in project management and Python/Django, and broad experience in many other facets of building, maintaining, and operating web apps and businesses.
+Noah lives in Asheville, NC with his wife, two children, two dogs, and four
+laying hens.
+He has deep experience in project management and Python/Django, and broad
+experience in many other facets of building, maintaining, and operating web apps
+and businesses.
+
 {{< figure src="./noah.jpg" title="Noah Hall" class="member-pic" >}}
 
 ### Sam Whited
@@ -32,4 +37,9 @@ Five and a half months later he found himself submitting Mt. Katahdin, roughly
 
 ### Alfie
 
-Alfie focuses on front-end technologies; HTML, CSS and Javascript. He completed an Art degree and has taught photography workshops to young people, computer literacy classes to old people and currently coaches climbing. He currently lives near the Peak District National Park, UK, and is interested in how technology affects the way we interact with each other and the enviroment.
+Alfie focuses on front-end technologies; HTML, CSS and Javascript.
+He completed an Art degree and has taught photography workshops to young people,
+computer literacy classes to old people and currently coaches climbing.
+He currently lives near the Peak District National Park, UK, and is interested
+in how technology affects the way we interact with each other and the
+enviroment.
