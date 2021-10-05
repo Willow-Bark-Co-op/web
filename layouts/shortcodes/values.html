@@ -1,0 +1,9 @@
+{{ with .Site.GetPage "vals" }}
+{{ range sort .Resources "Params.weight" }}
+	<h3>
+		{{ .Title }}
+	</h3>
+
+	{{ .Content }}
+{{ end }}
+{{ end }}
