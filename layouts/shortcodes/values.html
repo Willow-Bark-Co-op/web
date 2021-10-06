@@ -1,9 +1,17 @@
 {{ with .Site.GetPage "vals" }}
-{{ range sort .Resources "Params.weight" }}
-	<h3>
-		{{ .Title }}
-	</h3>
-
-	{{ .Content }}
-{{ end }}
+<div>
+	<div>
+	{{ range sort .Resources "Params.weight" }}
+		<h3 id="{{ urlize .Title }}">
+			{{ .Title }}
+		</h3>
+		{{ .Content }}
+	{{ end }}
+	</div>
+	<ul>
+		{{ range sort .Resources "Params.weight" }}
+		<li><a href="#{{ urlize .Title }}">{{ .Title }}</a></li>
+		{{ end }}
+	</ul>
+</div>
 {{ end }}
