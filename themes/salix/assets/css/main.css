@@ -15,6 +15,8 @@ html {
 
 body {
 	font-family: Alegreya, serif;
+	color: var(--color-blue);
+	mix-blend-mode: darken;
 	margin: 0;
 	padding: 0;
 }
@@ -137,14 +139,17 @@ section.columns-section > p {
 	z-index: 2;
 }
 
-section.list-section {
-	color: var(--color-blue);
-	max-width: 700px;
-	margin: 0 auto;
+section.list-section > div {
+	width: 100%;
+	display: grid;
+	align-items: baseline;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 5rem;	
 }
 
 section.list-section h2 {
 	opacity: 0.75;
+	margin: 0;
 }
 
 section.list-section h3 {
@@ -175,6 +180,23 @@ section.team-section h3 {
 	text-underline-offset: -0.25rem;
 	width: max-content;
 	max-width: 100%;
+}
+
+section.list-section ul {
+	position: sticky;
+	top: 5rem;
+	bottom: 5rem;
+	list-style: none;
+}
+
+section.list-section ul li {
+	padding-bottom: 1rem;
+}
+
+section.list-section ul a {
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1.3rem;
 }
 
 section.minimal-section {
@@ -271,5 +293,14 @@ figure.member-pic figcaption {
 
 	section.minimal-section {
 		background-size: contain;
+	}
+
+	section.list-section > div {
+		width: 100%;
+		display: block;
+	}
+
+	section.list-section ul {
+		display: none;
 	}
 }
