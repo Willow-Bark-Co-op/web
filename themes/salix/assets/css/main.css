@@ -100,7 +100,7 @@ section h2 {
 }
 
 section > div {
-	max-width: 1650px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -120,7 +120,7 @@ section .columns-section h3 {
 	font-size: 1.3rem;
 }
 
-section.columns-section {
+section.columns-section > div {
 	display: grid;
 	grid-auto-flow: column;
 	grid-template-rows: repeat(3, min-content);
@@ -139,7 +139,7 @@ section.columns-section > p {
 	z-index: 2;
 }
 
-section.list-section > div {
+section.list-section > div > div {
 	width: 100%;
 	display: grid;
 	align-items: baseline;
@@ -285,7 +285,7 @@ figure.member-pic figcaption {
 		font-size: 3rem !important;
 	}
 	
-	section.columns-section {
+	section.columns-section > div {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
@@ -295,7 +295,7 @@ figure.member-pic figcaption {
 		background-size: contain;
 	}
 
-	section.list-section > div {
+	section.list-section > div > div {
 		width: 100%;
 		display: block;
 	}
