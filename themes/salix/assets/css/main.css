@@ -157,6 +157,26 @@ section.list-section h3 {
 	max-width: 100%;
 }
 
+section.team-section {
+	color: var(--color-blue);
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+section.team-section h2 {
+	opacity: 0.75;
+}
+
+section.team-section h3 {
+	text-decoration: underline;
+	text-decoration-color: var(--color-lime);
+	text-decoration-thickness: 0.5rem;
+	text-decoration-skip-ink: none;
+	text-underline-offset: -0.25rem;
+	width: max-content;
+	max-width: 100%;
+}
+
 section.minimal-section {
 	min-height: 100vh;
 	color: var(--color-navy);
