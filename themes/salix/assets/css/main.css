@@ -122,6 +122,7 @@ section .columns-section h3 {
 
 section.columns-section > div {
 	display: grid;
+	column-gap: 2rem;
 	grid-auto-flow: column;
 	grid-template-rows: repeat(3, min-content);
 	grid-template-areas:
