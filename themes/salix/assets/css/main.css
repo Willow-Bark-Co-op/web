@@ -244,12 +244,12 @@ figure.member-pic figcaption {
 		padding: 1rem;
 	}
 
-	header {
+	header.homepage {
 		grid-template-columns: 2rem repeat(5, calc(calc(100vw - 4rem) / 5)) 2rem;
 		grid-template-rows: 2rem repeat(2, calc(calc(100vh - 4rem) / 5)) 2rem;
 	}
 
-	header p {
+	header.homepage p {
 		font-size: 1.75rem;
 	}
 
@@ -263,20 +263,20 @@ figure.member-pic figcaption {
 		display: none;
 	}
 
-	header {
+	header.homepage {
 		background-size: 120vmin;
 		padding: 4rem 2rem;
 		display:flex;
 		flex-direction: column;
 	}
 
-	header h1 {
+	header.homepage h1 {
 		align-self: auto;
 		font-size: 5rem;
 		margin-bottom: 3rem;
 	}
 
-	header p {
+	header.homepage p {
 		font-size: 1.5rem;
 		width: calc(100vw - 4rem)
 	}
