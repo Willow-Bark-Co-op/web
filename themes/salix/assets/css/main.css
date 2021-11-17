@@ -207,28 +207,57 @@ section.list-section ul a {
 	font-size: 1.3rem;
 }
 
-section.minimal-section {
+section.contact {
 	min-height: 100vh;
 	color: var(--color-navy);
 	background-color: var(--color-lime);
-	font-size: 2rem;
-	background-image: url("/img/pigeon.jpg");
 	background-position: left 40% bottom 40%;
 	background-repeat: no-repeat;
 	background-size: 512px;
 }
 
-section.minimal-section p {
-	background-color: rgba(255, 255, 255, 0.4);
-	width: max-content;
-	max-width: 100%;
+section.contact>div{
+	display: grid;
+	grid-template-columns: max-content max-content 1fr;
+	grid-template-rows: max-content 1fr;
+	grid-template-areas:
+		"title title title"
+		"msg email .";
 }
 
-section.minimal-section a {
-	background-color: rgba(0, 0, 0, 0.4);
-	color: white;
+section.contact h2 {
+	grid-area: title;
+	margin: 0;
+}
+
+section.contact p {
+	grid-area: msg;
+	padding-right: 0.5rem;
+	margin: 3rem 0 0 0;
+	font-size: 1.5rem;
+	mix-blend-mode: darken;
+	z-index: 1;
+	height: max-content;
+	padding: 0.5rem;
+}
+
+section.contact a {
+	color: var(--color-lime);
+	font-family: "Source Code Pro", monospace;
+	font-weight: 700;
 	text-decoration: none;
-	font-weight: bold;
+	margin: 3rem 0 0 0;
+	grid-area: email;
+	z-index: 1;
+	background-color: var(--color-navy);
+	width: max-content;
+	height: max-content;
+	padding: 0.5rem 1rem;
+}
+
+section.contact img {
+	grid-area: email;
+	width: 50vmin;
 }
 
 figure.member-pic img {
@@ -263,6 +292,18 @@ figure.member-pic figcaption {
 
 	h1 {
 		font-size: 5rem;
+	}
+
+	section.contact>div {
+		grid-template-columns: 1fr;
+		grid-template-rows: max-content max-content max-content;
+		grid-template-areas: "title"
+												 "msg"
+												 "email";
+	}
+
+	section.contact img {
+		width: 70%;
 	}
 }
 
@@ -299,10 +340,6 @@ figure.member-pic figcaption {
 		width: 100%;
 	}
 
-	section.minimal-section {
-		background-size: contain;
-	}
-
 	section.list-section > div > div {
 		width: 100%;
 		display: block;
@@ -310,5 +347,9 @@ figure.member-pic figcaption {
 
 	section.list-section ul {
 		display: none;
+	}
+
+	section.contact img {
+		width: 100%;
 	}
 }
