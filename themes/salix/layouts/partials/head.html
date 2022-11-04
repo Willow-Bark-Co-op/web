@@ -10,4 +10,5 @@
 	{{ $secureStyle := $style | resources.Fingerprint "sha256" }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $secureStyle.Data.Integrity }}">
 	<link rel="icon" type="image/png" href="/img/favicon.png">
+	<link rel="me" href="https://social.coop/@sam">
 </head>
